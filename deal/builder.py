@@ -2,7 +2,7 @@ import math
 import random
 from deuces3.evaluator import Evaluator
 from deuces3.card import Card
-from hand_pb2 import (
+from proto.hand_pb2 import (
     Hand,
     Board,
     HandResponse,

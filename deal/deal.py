@@ -2,7 +2,7 @@ from concurrent import futures
 import grpc
 from grpc_interceptor import ExceptionToStatusInterceptor
 from grpc_interceptor.exceptions import InvalidArgument
-import hand_pb2_grpc
+from proto import hand_pb2_grpc
 from builder import build_deal_payload
 
 class DealService(hand_pb2_grpc.DealerServicer):

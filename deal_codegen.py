@@ -4,8 +4,8 @@ protoc.main(
     (
         '',
         '-I.',
-        '--python_out=./server',
-        '--grpc_python_out=./server',
+        '--python_out=./deal',
+        '--grpc_python_out=./deal',
         './proto/hand.proto',
     )
 )
